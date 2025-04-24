@@ -5,15 +5,18 @@ The system facilitates clients to subscribe/unsubscribe notification as well as 
 phone number follows the specified format.
 
 ## Launched
-After the app has been launched, following GUI should be presented. As there is no subscriber yet when the application just launches, “Publish Notification” button is disabled.
+After the application has been launched, following GUI should be presented. As there is no subscriber yet when the application just launches, “Publish Notification” button is disabled.
 ![](./screenshots/screenshot1.jpg)
 
 ## Manage Subscription
 After Manage Subscription button clicked, following GUI should be popped up to allow clients to subscribe or unsubscribe notification. If an invalid email address has been provided, error message should be provided.
 ![](./screenshots/screenshot2.jpg)
 
+After one subscriber is set, “Publish Notification” button becomes enabled.
+![](./screenshots/screenshot3.jpg)
+
 ## Publish Notification 
 After Publish Notification button clicked, following GUI is presented to facilitate notification publish. 
-![](./screenshots/screenshot3.jpg)
+![](./screenshots/screenshot4.jpg)
 
 **Note**: No duplication subscription is allowed; in other words, if the user tries to subscribe using same email multiple times, the application should not allow it.
